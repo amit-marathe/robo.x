@@ -1,0 +1,747 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(250, 72, 155, 0.732);
+    color: #fff;
+}
+/*--------------------------navbar-> left-nav,center-nav,right-nav---------------------*/
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav{
+    height: 100%;
+    width: 20%; 
+    position: relative;
+}
+
+.left-nav h2{
+    position: absolute;
+    left: 32%;
+    top: 25%;
+}
+
+.center-nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin-right: 20%;
+}
+
+.center-nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    left: 20%;
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;    
+}
+
+.center-nav ul li:hover{
+    color: rgba(255, 217, 0, 0.911);
+}
+
+.right-nav{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.right-nav h3{
+    margin: 0 25px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.right-nav h3:hover{
+    background-color: rgba(255, 217, 0, 0.911);
+}
+/*----------------main-center-> left-center and right center -----------------*/
+.main-center{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+/*---------------------------------------left-center--------------------------*/
+.left-center{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.left-text{
+    height: 40%;
+    width: 85%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.left-text h1{
+    font-size: 6rem;    
+}
+
+.left-logo{
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+}
+
+.left-logo img{
+    height: 150px;
+    width: 170px;
+    position: relative;
+    left: -15%;
+}
+
+.left-para{
+    height: 15%;
+    width: 60%;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.left-para p{
+    font-size: 1.2rem;
+}
+
+.left-btn{
+    height: 10%;
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.left-btn p{
+    font-size: 1.2rem;
+    font-weight: 900;
+    border: 1px solid black;
+    padding: 15px;
+    padding-left: 80px;
+    border-radius: 10px;
+    background-color: rgba(255, 217, 0, 0.911);
+}
+/*------------------------------------------right-center----------------------------------*/
+.right-center{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-center img{
+    height: 95%;
+    width: 45%;
+}
+/*-----------------------------main2->main2-left and main2-right------------------------------------------------*/
+
+.main2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: rgba(201, 54, 123, 0.999);
+}
+/*---------------------------------------main2-left------------------------------*/
+.main2-logo{
+    height: 30%;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.main2-logo img{
+    height: 110%;
+}
+
+.main2-left{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.main2-left h3{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-weight: 500;
+}   
+
+.main2-text{
+    height: 40%;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+.main2-text h1{
+    font-size: 6rem;
+}
+
+.main2-para{
+    height: 15%;
+    width: 60%;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+
+.main2-para p{
+    font-size: 1.5rem;
+}
+
+.main2-btn{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.main2-btn h2{
+    border: 1px solid black;
+    margin-left: 25px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main2-arrow{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    display: flex;
+    gap: 90px;
+    margin: 20px 45px;
+}
+
+.main2-arrow h2{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 900;
+    background-color: rgba(250, 209, 27, 0.849);
+}
+
+.main2-btn h2:hover{
+    border: 2px solid rgba(235, 235, 8, 0.849);
+}
+/*----------------------------------main2-right-----------------------------------*/
+.main2-right{
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.main2-right img{
+    position: absolute;
+    left: -5%;
+    height: 100%;
+    width: 90%;
+}
+/*--------------------------------------main3->left,center and right---------------------------------------------*/
+
+.main3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(250, 72, 155, 0.732);
+    position: relative;
+}
+
+.main3-left{
+    height: 70%;
+    width:20%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.main3-left img{
+    height: 60%;
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 15px;
+}
+
+.main3-left:hover{
+    border-radius: 30px;
+    background-color: rgba(201, 54, 123, 0.999);
+}
+
+.main3-left h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main3-center{
+    height: 75%;
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.main3-center img{
+    height: 60%;
+    width: 90%;
+    margin-left: 12px;
+}
+
+.main3-center:hover{
+    border-radius: 20px;
+    background-color: rgba(201, 54, 123, 0.999);
+}
+
+.main3-center h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-left: -5%;
+}
+
+.main3-center h2{
+    font-size: 1.2rem;
+    width: 70%;
+    margin-top: 12%;
+    margin-left: 15%;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: 15px 50px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main3-center h2:hover{
+    background-color: rgba(255, 217, 0, 0.911);
+}
+
+.main3-right{
+    height: 70%;
+    width: 22%;
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main3-right img{
+    width: 80%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.main3-right h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.main3-right:hover{
+    border-radius: 40px;
+    background-color: rgba(201, 54, 123, 0.999);
+}
+
+/*------------------------main4->center,left,right and navbar--------------------------------------------------------------*/
+.main4{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(250, 72, 155, 0.732);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main4-center{
+    height: 85%;
+    width: 70%;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgba(201, 54, 123, 0.999);
+}
+/*-----------------------------------------------main4-left----------------------------------------*/
+.main4-left{
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    transform: translate(-5%,-3%);
+}
+
+.main4-left img{
+    height: 105%;
+    width: 100%;
+}
+/*--------------------------------------------------main4-right----------------------------------------*/
+.main4-right{
+    height: 75%;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    color: #fff;
+}
+
+.main4-right h1{
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.main4-right p{
+    height: 30%;
+    width: 80%;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.main4-right button{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(255, 217, 0, 0.911);
+    cursor: pointer;
+}
+
+.main4-right button span{
+    font-weight: 900;
+    margin-left: 10px;
+}
+/*-----------------------------------------main4-navbar---------------------------------*/
+.main4-center .navbar{
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    color: #fff;
+}
+
+.main4-center .navbar h1{
+    border: 1px solid none;
+    background-color: rgb(247, 60, 147);
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 0 70px;
+    cursor: pointer;
+    background-color: rgba(255, 217, 0, 0.911);
+}
+
+.main4-center .navbar h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.main4-center .navbar h3 img{
+    height: 35px;
+    width: 130px;
+}
+
+/*------------------------------------footer->left and right----------------------------------------------*/
+footer{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(201, 54, 123, 0.999);
+    display: flex;
+}
+
+.left-footer{
+    height: 100%;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-footer ul li{
+    color: #fff;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    bottom: 40px;
+    font-size: 1.2rem;
+}
+
+.left-footer ul li img{
+    height: 90px;
+    width: 100px;
+}
+
+.right-footer{
+    height: 100%;
+    width: 30%;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.social img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.social img:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px rgb(247, 60, 147);
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+@media screen and ( max-width: 480px) {
+    .center-nav{
+        display: none;
+    }
+    .right-nav{
+        margin-top: -12px;
+        margin-right: 5%;
+        width: 50%;
+    }
+    .right-nav h3{
+        margin-left: 0;
+        font-size: .9rem;   
+    }
+    .left-text{
+        top: 5%;
+    }
+    .left-text h1{
+        font-size: 3rem;
+    }
+    .left-logo img{
+        height: 80px;
+        width: 80px;
+        bottom: 80%;
+    }
+    .left-para{
+        top: 55%;
+        left: 25%;
+        width: 70%;
+    }
+    .left-para p{
+        font-size: 1rem;
+    }
+    .left-btn{
+        left: 50%;
+        top: 85%;
+        width: 100%;
+    }
+    .left-btn p{
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+    .right-center img{
+        height: 80%;
+        width: 90%;
+    }
+    .main2-logo{
+        height: 15%;
+        width: 10%;
+        top: 6%;
+        left: 55%;
+    }
+    .main2-left h3{
+        width: 70%;
+        font-size: 1.2rem;
+        top: 2%;
+        left: 55%;
+    }
+    .main2-text h1{
+        font-size: 3rem;
+    }
+    .main2-text{
+        width: 90%;
+        height: 30%;
+        left: 10%;
+        top: 20%;
+    }
+    .main2-para p{
+        font-size: 1.2rem;
+    }
+    .main2-para{
+        left: 10%;
+        top: 55%;
+    }
+    .main2-arrow{
+        display: none;
+    }
+    .main2-right{
+        top: 25%;
+        right: 10%;
+    }
+    .main2-right img{
+        height: 55%;
+        width: 120%;
+    }
+    .main2-btn{
+        top: 85%;
+        left: 25%;
+    }
+    .main2-btn h2{
+        font-size: .9rem;
+        padding: 10px 20px;
+    }
+    .main2-btn h2:hover{
+        border: 1px solid black;
+    }
+    .main3-left{
+        height: 45%;
+        width: 40%;
+        top: 5%;
+        left: 10%;
+    }
+    .main3-left img{
+        margin-left: 15%;
+        height: 50%;
+        width: 75%;
+    }
+    .main3-left h2{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10%;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .main3-center h2{
+        display: none;
+    }
+    .main3-center{
+        height: 50%;
+        width: 50%;
+        top: 50%;
+        left: 30%;
+    }
+    .main3-center h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .main3-right{
+        height: 43%;
+        width: 40%;
+        left: 55%;
+        top: 3%;
+    }
+    .main3-right h2{
+        font-size: 1.3rem;
+        margin-top: 8%;
+        font-weight: 400;
+    }
+    .main4-center{
+        height: 80%;
+        width: 90%;
+    }
+    .main4-left img{
+        height: 100%;
+        width: 100%;
+    }
+    .main4-right h1{
+        font-size: 1.6rem;
+        margin-top: -20px;
+    }
+    .main4-right p{
+        font-size: .8rem;
+        margin-top: -15px;
+    }
+    .main4-right button{
+        font-size: .9rem;
+        font-weight: 500;
+        padding: 10px 12px;
+    }
+    .main4-center .navbar{
+        height: 15%;
+        width: 100%;
+        bottom: 5%;
+    }
+    .main4-center .navbar h1{
+        font-weight: 600;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    .main4-center .navbar h3{
+        font-size: .5rem;
+        font-weight: 400;
+        margin-right: 20px;
+    }
+    .main4-center .navbar h3 img{
+        height: 30px;
+        width: 70px;
+    }
+    .left-footer{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+    .left-footer ul{
+        position: absolute;
+    }
+    .left-footer ul li{
+        font-size: .7rem;
+        margin: 20px 10px;    
+    }
+    .left-footer ul li img{
+        height: 40px;
+        width: 40px;
+    }
+    .social{
+        margin-left: 25%;
+    }
+    .social img{
+        height: 25px;
+        width: 20px;
+        margin-top: 30px;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
